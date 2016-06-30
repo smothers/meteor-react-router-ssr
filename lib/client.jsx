@@ -68,5 +68,4 @@ const ReactRouterSSR = {
   }
 };
 
-export { ReactRouterSSR };
 export default ReactRouterSSR;
