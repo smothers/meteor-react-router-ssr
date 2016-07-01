@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, browserHistory } from 'react-router';
 
-export default const ReactRouterSSR = {
+const ReactRouterSSR = {
   Run(routes, clientOptions) {
     if (!clientOptions) {
       clientOptions = {};
@@ -67,3 +67,5 @@ export default const ReactRouterSSR = {
     });
   }
 };
+
+export default ReactRouterSSR;
